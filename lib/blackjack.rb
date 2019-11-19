@@ -33,7 +33,7 @@ def initial_round
  
 end
 
-def hit?
+def hit?(cards)
   prompt_user && get_user_input == "h" ? hit : stick
 end
 
